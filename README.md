@@ -1,5 +1,5 @@
 # Product Management System - Northwind Database
-A simple crud for Northwind DB made on Python
+A simple crud for Northwind Database made on Python
 
 ## Table of Contents
 * [General info](#general-info)
