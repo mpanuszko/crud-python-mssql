@@ -16,14 +16,14 @@ This project is simple CRUD desktop app. CRUD stands for Create, Read, Update, D
 ![Algorithm schema](./crud-python-mssql/app.jpg)
 
 ## Simple code example
-`def view(self):
+```def view(self):
      self.cursor.execute("SELECT * FROM products")
      rows = self.cursor.fetchall()
      return rows
 
 def insert(self, ProductName, SupplierID, CategoryID, QuantityPerUnit, UnitPrice, UnitsInStock, UnitsOnOrder, ReorderLevel, Discontinued):
      self.cursor.execute("INSERT INTO products VALUES (?,?,?,?,?,?,?,?,?);", (ProductName, SupplierID, CategoryID, QuantityPerUnit, UnitPrice, UnitsInStock, UnitsOnOrder, ReorderLevel, Discontinued))
-     self.con.commit()`
+     self.con.commit()```
 
 ## Technologies
 Project is created with:
