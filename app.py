@@ -208,5 +208,5 @@ b7.grid(row=6, column=3)
 
 window.overrideredirect(True)
 window.overrideredirect(False)
-#window.attributes('-fullscreen', True)
+window.attributes('-fullscreen', True)
 window.mainloop()
