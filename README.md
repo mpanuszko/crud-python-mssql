@@ -13,7 +13,7 @@ A simple crud for Northwind DB made on Python
 This project is simple CRUD desktop app. CRUD stands for Create, Read, Update, Delete, and it is a common way to view, and modify data. This application is used to modify the products in the Northwind database. Python connects the application with Northwind Database via ODBC drivers.
 
 ## Screenshots
-![Algorithm schema](./crud-python-mssql/app.jpg)
+![Alt text](/relative/path/to/app.jpg?raw=true "Optional Title")
 
 ## Simple code example
      ```def view(self):
